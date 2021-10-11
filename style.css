@@ -1,0 +1,252 @@
+#general-container {
+  width: 1400px;
+  height: 610px;
+  background-color: white;
+  margin: auto;
+  border: 2px solid lightcoral;
+  margin-top: 20px;
+}
+
+#image-container {
+  width: 1400px;
+  height: 400px;
+  background-color: #faf2da;
+  border-bottom: 2px solid #ff9800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* First image container and items strat*/
+.item-out-container {
+  width: 400px;
+  height: 280px;
+  background-color: #62306d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.first-image-container {
+  width: 300px;
+  height: 200px;
+  background-color: #62306d;
+  display: flex;
+}
+
+.little-box-inside-1,
+.little-box-inside-2,
+.little-box-inside-3 {
+  background-color: #fade8b;
+  width: 100px;
+  height: 100px;
+}
+
+.little-box-inside-1 {
+  align-self: flex-end;
+  border-radius: 0 0 50% 50%;
+}
+.little-box-inside-2 {
+  align-self: flex-start;
+  border-radius: 50% 50% 0 0;
+}
+.little-box-inside-3 {
+  align-self: flex-end;
+  border-radius: 0 0 50% 50%;
+}
+
+/* First image container and items end*/
+
+/* Second image container and items start*/
+.second-image-container {
+  width: 400px;
+  height: 280px;
+  background-color: #e3516e;
+  margin-right: 20px;
+  position: relative;
+}
+
+.little-box-inside-5,
+.little-box-inside-6,
+.little-box-inside-7 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.little-box-inside-5 {
+  clip-path: circle(100px at 0 0);
+  top: 40px;
+  left: 95px;
+  transform: rotate(-180deg);
+  background-color: #51b5a9;
+}
+
+.little-box-inside-6 {
+  clip-path: circle(100px at 0 0);
+  top: 40px;
+  left: 194px;
+  transform: rotate(-90deg);
+  background-color: #fade8b;
+}
+
+.little-box-inside-7 {
+  clip-path: circle(100px at 0 0);
+  top: 140px;
+  left: 95px;
+  transform: rotate(90deg);
+  background-color: #f7f3d7;
+}
+
+/* Second image container and items end*/
+
+/* Third image container and items start*/
+.third-image-container {
+  width: 400px;
+  height: 280px;
+  background-color: black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.little-box-inside-8,
+.little-box-inside-9,
+.little-box-inside-10 {
+  position: absolute;
+}
+
+.little-box-inside-8 {
+  width: 140px;
+  height: 140px;
+  background-color: #eca03d;
+  border-radius: 50%;
+}
+
+.little-box-inside-9 {
+  width: 100px;
+  height: 100px;
+  background-color: #191210;
+  border-radius: 50%;
+}
+
+.little-box-inside-10 {
+  width: 40px;
+  height: 40px;
+  background-color: #84271c;
+  border-radius: 50%;
+}
+
+.left-circle-1,
+.left-circle-2,
+.right-circle-1,
+.right-circle-2 {
+  position: absolute;
+  background-color: blue;
+}
+.left-circle-1 {
+  width: 120px;
+  height: 120px;
+  left: 42px;
+  top: 142px;
+  clip-path: circle(40% at 100% 50%);
+  background-color: #eca03d;
+  transform: rotate(-90deg);
+}
+
+.left-circle-2 {
+  width: 55px;
+  height: 55px;
+  top: 119px;
+  left: 75px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.right-circle-1 {
+  width: 120px;
+  height: 120px;
+  left: 238px;
+  top: 21px;
+  clip-path: circle(40% at 100% 50%);
+  background-color: #eca03d;
+  transform: rotate(90deg);
+}
+
+.right-circle-2 {
+  width: 55px;
+  height: 55px;
+  top: 111px;
+  left: 270px;
+  border-radius: 50%;
+  background-color: black;
+}
+/* Third image container and items end */
+
+/* Color palete settings start*/
+#color-palete {
+  width: 500px;
+  height: 300px;
+}
+.color-bar {
+  height: 30px;
+  background-color: black;
+  margin: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.color {
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+.color-info {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: silver 1px solid;
+}
+/* Color palete settings start end*/
+
+/* color palete in color settings start*/
+#info-1 {
+  background-color: #191210;
+}
+#info-2 {
+  background-color: #eca03d;
+}
+#info-3 {
+  background-color: #84721c;
+}
+#info-4 {
+  background-color: #e3516e;
+}
+#info-5 {
+  background-color: #f7f3d7;
+}
+#info-6 {
+  background-color: #51b5a9;
+}
+#info-7 {
+  background-color: #fade8b;
+}
+#info-8 {
+  background-color: #62306d;
+}
+#info-9 {
+  background-color: #f7ec7d;
+}
+/* color palete in color settings end*/
+
+/* color palete font settings */
+.color-p {
+  color: silver;
+  margin-left: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  font-size: 18px;
+}
